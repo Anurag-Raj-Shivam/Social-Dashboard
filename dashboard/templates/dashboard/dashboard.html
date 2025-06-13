@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>Dashboard</title></head>
+<body>
+<h1>Welcome, {{ user.username }}</h1>
+<form method="post" action="{% url 'post_tweet' %}">
+  {% csrf_token %}
+  <textarea name="message" placeholder="Post to Twitter..."></textarea>
+  <button type="submit">Post</button>
+</form>
+</body>
+</html>
