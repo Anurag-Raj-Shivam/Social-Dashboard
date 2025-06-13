@@ -1,4 +1,8 @@
 # Social Dashboard
 
-This repository contains Python scripts and dashboards for my social media data project.
+## Setup
 
+1. Create virtual environment
+2. Install requirements
+3. Run migrations
+4. Start server
